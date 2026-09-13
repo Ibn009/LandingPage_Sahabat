@@ -145,7 +145,7 @@ function triggerSearchSimulation() {
         ];
     } else {
         mocks = [
-            { provider: 'Tijili Seminyak Bali', icon: 'fa-hotel text-purple-600', time: 'Check-in 14:00 WITA', class: 'Bintang 4 - Deluxe Room (Promo Velosita)', price: 'Rp 580.000/malam', badge: 'Promo Spesial' },
+            { provider: 'Tijili Seminyak Bali', icon: 'fa-hotel text-purple-600', time: 'Check-in 14:00 WITA', class: 'Bintang 4 - Deluxe Room (Promo)', price: 'Rp 580.000/malam', badge: 'Promo Spesial' },
             { provider: 'voco Bandung Setiabudi', icon: 'fa-hotel text-purple-600', time: 'Check-in 14:00 WIB', class: 'Bintang 4 - Premium King Room', price: 'Rp 790.000/malam', badge: 'Hotel Choice' }
         ];
     }

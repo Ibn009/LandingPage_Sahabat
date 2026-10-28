@@ -1,4 +1,4 @@
-// Script logic for Sahabat Tiket Landing Page (Aligned with velotiket.com/sahabatiket)
+﻿// Script logic for Sahabat TIKETPAY Landing Page (Aligned with velotiket.com/sahabatiket)
 
 document.addEventListener('DOMContentLoaded', () => {
     initSearchForm();

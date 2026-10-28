@@ -1,17 +1,17 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="id" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sahabat Tiket - Tiket Pesawat, KAI, PELNI, Bus & Hotel</title>
+    <title>Sahabat TIKETPAY - Tiket Pesawat, KAI, PELNI, Bus & Hotel</title>
     <meta name="description"
         content="Aplikasi pemesanan tiket online terlengkap di Indonesia. Pesan tiket Pesawat, Kereta Api (KAI), Kapal PELNI, Bus/Travel, dan Hotel. Harga nett sudah termasuk Pajak & Fuel Surcharge.">
     <meta name="keywords"
-        content="Sahabat Tiket, Tiket Pesawat Murah, Tiket KAI, Tiket PELNI, Booking Hotel, Tiket Bus">
+        content="Sahabat TIKETPAY, Tiket Pesawat Murah, Tiket KAI, Tiket PELNI, Booking Hotel, Tiket Bus">
 
     <!-- Open Graph Meta -->
-    <meta property="og:title" content="Sahabat Tiket - Solusi Tiket & Perjalanan Terlengkap">
+    <meta property="og:title" content="Sahabat TIKETPAY - Solusi Tiket & Perjalanan Terlengkap">
     <meta property="og:description"
         content="Pesan tiket Pesawat, Kereta Api, PELNI, Bus & Hotel dengan harga nett sudah termasuk pajak!">
     <meta property="og:image"
@@ -19,7 +19,7 @@
 
     <!-- Favicon -->
     <link rel="icon" type="image/png"
-        href="https://play-lh.googleusercontent.com/e7xtXHAyH1HLYXr9km8DWcnTPpVcqbvmUImAfq14XwEmlGrf4KD8z-SR3FBPLYWy2oJU_iHswBtMrP04dQwd9Q">
+        href="assets/logo-sahabat-tiketpay.png">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -83,39 +83,29 @@
 
                 <!-- Brand Logo -->
                 <a href="#" class="flex items-center gap-3 group">
-                    <img src="https://play-lh.googleusercontent.com/e7xtXHAyH1HLYXr9km8DWcnTPpVcqbvmUImAfq14XwEmlGrf4KD8z-SR3FBPLYWy2oJU_iHswBtMrP04dQwd9Q"
-                        alt="Logo Sahabat Tiket"
+                    <img src="assets/logo-sahabat-tiketpay.png"
+                        alt="Logo Sahabat TIKETPAY"
                         class="w-11 h-11 rounded-xl shadow-md group-hover:scale-105 transition-transform duration-300 border border-slate-100">
                     <div>
-                        <span class="text-xl font-extrabold text-brand-900 tracking-tight block">Sahabat<span
-                                class="text-brand-500">Tiket</span></span>
+                        <span class="text-xl font-extrabold text-brand-900 tracking-tight block">Sahabat <span class="text-brand-500">TIKETPAY</span></span>
                         <span
                             class="text-[11px] font-semibold text-slate-400 block -mt-1 tracking-wider uppercase">Travel
                             & Mobility</span>
                     </div>
                 </a>
 
-                <!-- Desktop Navigation Links -->
+                <!-- Desktop Navigation Links (5 Menu Utama) -->
                 <nav class="hidden md:flex items-center gap-6">
+                    <a href="#simulasi"
+                        class="text-sm font-semibold text-slate-600 hover:text-brand-500 transition-colors">Cari Tiket</a>
                     <a href="https://tiketpay.sahabatiket.biz.id" target="_blank" rel="noopener"
                         class="text-sm font-bold text-emerald-600 hover:text-emerald-700 flex items-center gap-1 transition-colors bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">
                         <i class="fa-solid fa-bolt text-xs"></i> Pulsa & PPOB
                     </a>
                     <a href="#fitur"
                         class="text-sm font-semibold text-slate-600 hover:text-brand-500 transition-colors">Layanan</a>
-                    <a href="#promo"
-                        class="text-sm font-semibold text-slate-600 hover:text-brand-500 transition-colors">Promo &
-                        Agent News</a>
-                    <a href="#keunggulan"
-                        class="text-sm font-semibold text-slate-600 hover:text-brand-500 transition-colors">Keunggulan</a>
-                    <a href="#simulasi"
-                        class="text-sm font-semibold text-slate-600 hover:text-brand-500 transition-colors">Cari
-                        Tiket</a>
-                    <a href="#screenshot"
-                        class="text-sm font-semibold text-slate-600 hover:text-brand-500 transition-colors">Tampilan
-                        App</a>
-                    <a href="#ulasan"
-                        class="text-sm font-semibold text-slate-600 hover:text-brand-500 transition-colors">Ulasan</a>
+                    <a href="agen/index.html"
+                        class="text-sm font-semibold text-slate-600 hover:text-brand-500 transition-colors">APK Agen</a>
                     <a href="pasang-iklan.html"
                         class="text-sm font-bold text-amber-600 hover:text-amber-700 flex items-center gap-1 transition-colors bg-amber-50 px-3 py-1 rounded-full border border-amber-200">
                         <i class="fa-solid fa-bullhorn text-xs"></i> Pasang Iklan
@@ -140,34 +130,27 @@
             </div>
         </div>
 
-        <!-- Mobile Drawer Navigation -->
+        <!-- Mobile Drawer Navigation (5 Menu Utama) -->
         <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-3">
+            <a href="#simulasi"
+                class="mobile-link block py-2 text-base font-medium text-slate-700 hover:text-brand-500 border-b border-slate-50">Cari Tiket</a>
             <a href="https://tiketpay.sahabatiket.biz.id" target="_blank" rel="noopener"
                 class="mobile-link block py-2 text-base font-bold text-emerald-600 hover:text-emerald-700 border-b border-slate-50">
-                <i class="fa-solid fa-bolt mr-1"></i> Pulsa, Kuota Data & PPOB (TIKETPAY)
+                <i class="fa-solid fa-bolt mr-1"></i> Pulsa & PPOB
             </a>
             <a href="#fitur"
-                class="mobile-link block py-2 text-base font-medium text-slate-700 hover:text-brand-500 border-b border-slate-50">Layanan
-                Transportasi</a>
-            <a href="#keunggulan"
-                class="mobile-link block py-2 text-base font-medium text-slate-700 hover:text-brand-500 border-b border-slate-50">Keunggulan
-                Aplikasi</a>
-            <a href="#simulasi"
-                class="mobile-link block py-2 text-base font-medium text-slate-700 hover:text-brand-500 border-b border-slate-50">Cek
-                Tiket Interaktif</a>
-            <a href="#screenshot"
-                class="mobile-link block py-2 text-base font-medium text-slate-700 hover:text-brand-500 border-b border-slate-50">Tampilan
-                Aplikasi</a>
-            <a href="#ulasan"
-                class="mobile-link block py-2 text-base font-medium text-slate-700 hover:text-brand-500 border-b border-slate-50">Ulasan
-                Pengguna</a>
-            <a href="#faq"
-                class="mobile-link block py-2 text-base font-medium text-slate-700 hover:text-brand-500">FAQ</a>
+                class="mobile-link block py-2 text-base font-medium text-slate-700 hover:text-brand-500 border-b border-slate-50">Layanan</a>
+            <a href="agen/index.html"
+                class="mobile-link block py-2 text-base font-medium text-slate-700 hover:text-brand-500 border-b border-slate-50">APK Agen</a>
+            <a href="pasang-iklan.html"
+                class="mobile-link block py-2 text-base font-bold text-amber-600 hover:text-amber-700">
+                <i class="fa-solid fa-bullhorn mr-1"></i> Pasang Iklan
+            </a>
             <div class="pt-2">
                 <a href="https://play.google.com/store/apps/details?id=com.onewanta.sahabattiket&hl=id" target="_blank"
                     class="flex items-center justify-center gap-2 w-full bg-brand-500 text-white font-bold py-3 rounded-xl shadow-md">
                     <i class="fa-brands fa-google-play"></i>
-                    <span>Download Sahabat Tiket di Play Store</span>
+                    <span>Download Sahabat TIKETPAY di Play Store</span>
                 </a>
             </div>
         </div>
@@ -191,7 +174,7 @@
                     <div
                         class="inline-flex items-center gap-2 bg-white border border-brand-100 px-3.5 py-1.5 rounded-full shadow-sm mb-6 animate-pulse">
                         <span class="flex h-2 w-2 rounded-full bg-emerald-500"></span>
-                        <span class="text-xs font-bold text-slate-700 tracking-wide">Sahabat Tiket</span>
+                        <span class="text-xs font-bold text-slate-700 tracking-wide">Sahabat TIKETPAY</span>
                         <span
                             class="bg-brand-100 text-brand-700 text-[10px] font-extrabold px-2 py-0.5 rounded-full">v1.13.0</span>
                     </div>
@@ -275,7 +258,7 @@
 
                         <div class="relative overflow-hidden rounded-[30px] bg-white aspect-[9/19]">
                             <img src="https://play-lh.googleusercontent.com/FkrwFiMU-RDukvBpcv1ZqEtnjRc_FjDMVuesJtpr8RJMwqSmILoX7cRxK2k5KM7yuof1ykW2LEfwfp_QzhQh3I4"
-                                alt="Tampilan Aplikasi Sahabat Tiket" class="w-full h-full object-cover">
+                                alt="Tampilan Aplikasi Sahabat TIKETPAY" class="w-full h-full object-cover">
                         </div>
                     </div>
 
@@ -545,7 +528,7 @@
                 <h2 class="text-xs font-extrabold text-brand-500 uppercase tracking-widest mb-2">Layanan Perjalanan</h2>
                 <p class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Semua Jenis Transportasi
                     Dalam 1 Genggaman</p>
-                <p class="text-slate-600 mt-4 text-base">Tidak perlu install banyak aplikasi terpisah. Sahabat Tiket
+                <p class="text-slate-600 mt-4 text-base">Tidak perlu install banyak aplikasi terpisah. Sahabat TIKETPAY
                     menyediakan segalanya.</p>
             </div>
 
@@ -859,7 +842,7 @@
                 <span class="text-xs font-extrabold text-brand-400 uppercase tracking-widest block mb-2">Tampilan
                     Aplikasi</span>
                 <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Antarmuka Modern & Mudah Dipahami</h2>
-                <p class="text-slate-400 mt-4 text-base">Intip bagaimana Aplikasi Sahabat Tiket dirancang intuitif untuk
+                <p class="text-slate-400 mt-4 text-base">Intip bagaimana Aplikasi Sahabat TIKETPAY dirancang intuitif untuk
                     kenyamanan Anda.</p>
             </div>
 
@@ -869,42 +852,42 @@
                 <div
                     class="bg-slate-800/80 p-2 rounded-2xl border border-slate-700/60 shadow-lg hover:scale-105 transition-transform duration-300">
                     <img src="https://play-lh.googleusercontent.com/FkrwFiMU-RDukvBpcv1ZqEtnjRc_FjDMVuesJtpr8RJMwqSmILoX7cRxK2k5KM7yuof1ykW2LEfwfp_QzhQh3I4"
-                        alt="Screenshot Sahabat Tiket 1" class="rounded-xl w-full object-cover shadow-sm">
+                        alt="Screenshot Sahabat TIKETPAY 1" class="rounded-xl w-full object-cover shadow-sm">
                     <div class="text-center mt-2 text-[11px] font-medium text-slate-300">Halaman Utama</div>
                 </div>
 
                 <div
                     class="bg-slate-800/80 p-2 rounded-2xl border border-slate-700/60 shadow-lg hover:scale-105 transition-transform duration-300">
                     <img src="https://play-lh.googleusercontent.com/8Umk_mYKT6yiqt55YviAxdb1BYigKfnRG9OxbysOtk9hD3dDwvtK1wi_mtWzkz4Fo90ioWIfcaXvVyqku1salw"
-                        alt="Screenshot Sahabat Tiket 2" class="rounded-xl w-full object-cover shadow-sm">
+                        alt="Screenshot Sahabat TIKETPAY 2" class="rounded-xl w-full object-cover shadow-sm">
                     <div class="text-center mt-2 text-[11px] font-medium text-slate-300">Pencarian Tiket</div>
                 </div>
 
                 <div
                     class="bg-slate-800/80 p-2 rounded-2xl border border-slate-700/60 shadow-lg hover:scale-105 transition-transform duration-300">
                     <img src="https://play-lh.googleusercontent.com/yNdjz46-iufLVRdse4sGMTQH4llyFjqjNcgqUPUscBp4LZEmQRrKYnqsl_nv_j-cpVGbCrj0nk0KG8iuznAO0Jw"
-                        alt="Screenshot Sahabat Tiket 3" class="rounded-xl w-full object-cover shadow-sm">
+                        alt="Screenshot Sahabat TIKETPAY 3" class="rounded-xl w-full object-cover shadow-sm">
                     <div class="text-center mt-2 text-[11px] font-medium text-slate-300">Jadwal & Tarif</div>
                 </div>
 
                 <div
                     class="bg-slate-800/80 p-2 rounded-2xl border border-slate-700/60 shadow-lg hover:scale-105 transition-transform duration-300">
                     <img src="https://play-lh.googleusercontent.com/7g9hs35TIrIKypxVUqb61L5APiqrELKI4v1iN0RIKSReQRjaRQ-6er2CQWfrk2xC0xMAl9FRBwAazVY4IqiY6YI"
-                        alt="Screenshot Sahabat Tiket 4" class="rounded-xl w-full object-cover shadow-sm">
+                        alt="Screenshot Sahabat TIKETPAY 4" class="rounded-xl w-full object-cover shadow-sm">
                     <div class="text-center mt-2 text-[11px] font-medium text-slate-300">Data Penumpang</div>
                 </div>
 
                 <div
                     class="bg-slate-800/80 p-2 rounded-2xl border border-slate-700/60 shadow-lg hover:scale-105 transition-transform duration-300">
                     <img src="https://play-lh.googleusercontent.com/Tcy40_TpccZBl-AHdHtgn4TLwha2a2r1Twby3uxDMFkQozRWXGoqRILei6jP6bqBt0osozFgPxoQKEo-O_-sqA"
-                        alt="Screenshot Sahabat Tiket 5" class="rounded-xl w-full object-cover shadow-sm">
+                        alt="Screenshot Sahabat TIKETPAY 5" class="rounded-xl w-full object-cover shadow-sm">
                     <div class="text-center mt-2 text-[11px] font-medium text-slate-300">Opsi Pembayaran</div>
                 </div>
 
                 <div
                     class="bg-slate-800/80 p-2 rounded-2xl border border-slate-700/60 shadow-lg hover:scale-105 transition-transform duration-300">
                     <img src="https://play-lh.googleusercontent.com/R50Ek9c2AcZ2ZHWdb0LnYI2aJ0u_CX4RLIuLao2b8w8r0Qr4uX3BQAwJFgXrImrcDSBOXCQVuACTM2aM307gyw"
-                        alt="Screenshot Sahabat Tiket 6" class="rounded-xl w-full object-cover shadow-sm">
+                        alt="Screenshot Sahabat TIKETPAY 6" class="rounded-xl w-full object-cover shadow-sm">
                     <div class="text-center mt-2 text-[11px] font-medium text-slate-300">E-Tiket Terbit</div>
                 </div>
 
@@ -922,7 +905,7 @@
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Ulasan Pengguna di Google
                     Play</h2>
                 <p class="text-slate-600 mt-4 text-base">Ribuan pelanggan telah merasakan kemudahan memesan tiket
-                    bersama Sahabat Tiket.</p>
+                    bersama Sahabat TIKETPAY.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -964,7 +947,7 @@
                             <i class="fa-solid fa-star"></i>
                         </div>
                         <p class="text-sm text-slate-700 leading-relaxed italic mb-6">
-                            "Saya dengan aplikasi Sahabat Tiket sangat membantu karena jauh hari tiket apapun sudah bisa
+                            "Saya dengan aplikasi Sahabat TIKETPAY sangat membantu karena jauh hari tiket apapun sudah bisa
                             terjual dan saya sangat dominan pemesan tiket kapal PELNI untuk keluarga. Sangat simpel!"
                         </p>
                     </div>
@@ -1026,12 +1009,12 @@
                 <div class="border border-slate-200 rounded-2xl overflow-hidden transition-colors">
                     <button
                         class="faq-toggle w-full flex items-center justify-between p-5 text-left font-bold text-slate-900 text-base sm:text-lg hover:bg-slate-50">
-                        <span>Bagaimana cara memesan tiket di aplikasi Sahabat Tiket?</span>
+                        <span>Bagaimana cara memesan tiket di aplikasi Sahabat TIKETPAY?</span>
                         <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-300"></i>
                     </button>
                     <div
                         class="faq-content hidden p-5 pt-0 text-sm text-slate-600 leading-relaxed border-t border-slate-100">
-                        Cukup buka aplikasi Sahabat Tiket, pilih kategori perjalanan Anda (Pesawat, Kereta KAI, Kapal
+                        Cukup buka aplikasi Sahabat TIKETPAY, pilih kategori perjalanan Anda (Pesawat, Kereta KAI, Kapal
                         PELNI, Bus, atau Hotel), masukkan rincian asal, tujuan, serta tanggal keberangkatan. Pilih tiket
                         yang sesuai, isi data penumpang, dan lakukan pembayaran sesuai metode yang Anda pilih. E-tiket
                         akan otomatis terbit.
@@ -1047,7 +1030,7 @@
                     </button>
                     <div
                         class="faq-content hidden p-5 pt-0 text-sm text-slate-600 leading-relaxed border-t border-slate-100">
-                        Ya, betul! Seluruh harga yang tertera di Sahabat Tiket sudah nett termasuk Pajak, Fuel
+                        Ya, betul! Seluruh harga yang tertera di Sahabat TIKETPAY sudah nett termasuk Pajak, Fuel
                         Surcharge, serta Iuran Wajib Jasa Raharja (IWJR) tanpa biaya tersembunyi.
                     </div>
                 </div>
@@ -1075,7 +1058,7 @@
                     </button>
                     <div
                         class="faq-content hidden p-5 pt-0 text-sm text-slate-600 leading-relaxed border-t border-slate-100">
-                        Anda dapat memeriksa status pesanan di menu <b>Pesanan Saya</b> dalam aplikasi Sahabat Tiket.
+                        Anda dapat memeriksa status pesanan di menu <b>Pesanan Saya</b> dalam aplikasi Sahabat TIKETPAY.
                         Jika terjadi penundaan jaringan, Anda juga bisa langsung menghubungi Customer Service kami via
                         WhatsApp di <b>+62 895-3966-97040</b> dengan melampirkan bukti transfer.
                     </div>
@@ -1090,7 +1073,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <h2 class="text-3xl sm:text-5xl font-extrabold mb-4 tracking-tight">Siap Untuk Perjalanan Berikutnya?</h2>
             <p class="text-brand-100 text-base sm:text-xl max-w-2xl mx-auto mb-8 font-medium">
-                Unduh Sahabat Tiket sekarang di Smartphone Anda dan nikmati kemudahan memesan tiket kapan saja & di mana
+                Unduh Sahabat TIKETPAY sekarang di Smartphone Anda dan nikmati kemudahan memesan tiket kapan saja & di mana
                 saja!
             </p>
             <a href="https://play.google.com/store/apps/details?id=com.onewanta.sahabattiket&hl=id" target="_blank"
@@ -1110,17 +1093,16 @@
                 <!-- Col 1: Brand Info -->
                 <div class="md:col-span-5">
                     <div class="flex items-center gap-3 mb-4">
-                        <img src="https://play-lh.googleusercontent.com/e7xtXHAyH1HLYXr9km8DWcnTPpVcqbvmUImAfq14XwEmlGrf4KD8z-SR3FBPLYWy2oJU_iHswBtMrP04dQwd9Q"
-                            alt="Sahabat Tiket Icon" class="w-10 h-10 rounded-xl">
-                        <span class="text-xl font-extrabold text-white">Sahabat<span
-                                class="text-brand-400">Tiket</span></span>
+                        <img src="assets/logo-sahabat-tiketpay.png"
+                            alt="Sahabat TIKETPAY Icon" class="w-10 h-10 rounded-xl">
+                        <span class="text-xl font-extrabold text-white">Sahabat <span class="text-brand-400">TIKETPAY</span></span>
                     </div>
                     <p class="text-sm leading-relaxed mb-6 text-slate-400">
                         Menyediakan pemesanan tiket Pesawat, Kereta Api, PELNI, Bus, dan Hotel secara transparan dan
                         aman.
                     </p>
                     <div class="text-xs text-slate-400 space-y-1">
-                        <div><b>Pengembang & Perusahaan:</b> Sahabat Tiket</div>
+                        <div><b>Pengembang & Perusahaan:</b> Sahabat TIKETPAY</div>
                         <div><b>Alamat Kantor:</b> Jl. R. Suprapto No.23M Mandonga, Kendari, Sulawesi Tenggara 93112,
                             Indonesia</div>
                     </div>
@@ -1164,7 +1146,7 @@
                             <i class="fa-solid fa-bullhorn text-amber-400 text-lg"></i>
                             <span><a href="pasang-iklan.html"
                                     class="hover:text-amber-300 font-bold underline text-amber-400">Pasang Iklan di
-                                    Sahabat Tiket</a></span>
+                                    Sahabat TIKETPAY</a></span>
                         </li>
                         <li class="flex items-center gap-3">
                             <i class="fa-solid fa-shield-halved text-amber-400 text-lg"></i>
@@ -1182,7 +1164,7 @@
 
             <!-- Bottom Copyright -->
             <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
-                <div>&copy; 2025 - 2026 Sahabat Tiket (Onewanta). All rights reserved.</div>
+                <div>&copy; 2025 - 2026 Sahabat TIKETPAY (Onewanta). All rights reserved.</div>
                 <div>Dirancang dengan &hearts; untuk Kemudahan Perjalanan Anda.</div>
             </div>
         </div>
@@ -1195,7 +1177,7 @@
             rel="noopener"
             class="flex items-center justify-center gap-2.5 w-full bg-brand-500 hover:bg-brand-600 text-white font-extrabold py-3 rounded-xl shadow-lg text-sm">
             <i class="fa-brands fa-google-play text-lg"></i>
-            <span>Download Sahabat Tiket di Play Store</span>
+            <span>Download Sahabat TIKETPAY di Play Store</span>
         </a>
     </div>
 
@@ -1213,11 +1195,11 @@
                     class="w-14 h-14 rounded-2xl bg-brand-50 text-brand-500 flex items-center justify-center text-2xl mx-auto mb-4">
                     <i class="fa-solid fa-mobile-screen"></i>
                 </div>
-                <h3 class="text-xl font-bold text-slate-900 mb-2">Lanjutkan di Aplikasi Sahabat Tiket</h3>
+                <h3 class="text-xl font-bold text-slate-900 mb-2">Lanjutkan di Aplikasi Sahabat TIKETPAY</h3>
                 <p class="text-sm text-slate-600 mb-6">
                     Untuk menyelesaikan reservasi tiket <span id="modal-route-name"
                         class="font-bold text-slate-800"></span> dengan harga nett & pilihan kursi resmi, silakan buka
-                    atau unduh Aplikasi Sahabat Tiket.
+                    atau unduh Aplikasi Sahabat TIKETPAY.
                 </p>
 
                 <div class="bg-slate-50 border border-slate-200 rounded-2xl p-4 mb-6 text-left text-xs space-y-2">
